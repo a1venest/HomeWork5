@@ -15,7 +15,7 @@ void PrintArray(int[] arr)
     Console.WriteLine();
 }
 
-int CountNumber(int[] arr)
+int SumNumber(int[] arr)
 {
     int sum = 0;
     for(int i =0 ;i< arr.Length;i++)
@@ -30,4 +30,4 @@ int[] array = new int[20];
 FillArray(array, 1,9);
 PrintArray(array);
 
-Console.WriteLine("Сумма нечетных чисел равна: " + CountNumber(array));
+Console.WriteLine("Сумма нечетных чисел равна: " + SumNumber(array));
